@@ -23,8 +23,8 @@ Para ejecutar este proyecto, necesitarás:
 1. **Clona el Repositorio**:
 
     ```bash
-    git clone https://github.com/tu_usuario/tu_repositorio.git
-    cd tu_repositorio
+    git clone https://github.com/CQuirozVidal/EcosystemSimulator_tkinter.git
+    cd EcosystemSimulator_tkindter
     ```
 
 2. **Instala las Dependencias Necesarias**:
