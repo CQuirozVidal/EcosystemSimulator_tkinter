@@ -1,49 +1,49 @@
-# Simulador de Ecosistema Interactivo
+# Interactive Ecosystem Simulator
 
-Este proyecto es un simulador de ecosistema interactivo creado en Python utilizando la biblioteca Tkinter para la interfaz gráfica de usuario. El ecosistema simulado presenta depredadores (leones) y presas (ciervos) interactuando con plantas dentro de un entorno cerrado.
+This project is an interactive ecosystem simulator created in Python using the Tkinter library for the graphical user interface. The simulated ecosystem features predators (lions) and prey (deer) interacting with plants in a closed environment.
 
-## Características
+## Features
 
-- **Simulación de Depredador-Presa**: Los leones persiguen a los ciervos, y los ciervos se alimentan de las plantas.
-- **Control de la Simulación**: Puedes iniciar, pausar y detener la simulación utilizando botones de control.
-- **Visualización de Conteos**: La interfaz muestra el número de leones, ciervos y plantas en el ecosistema en tiempo real.
-- **Diseño Adaptable**: Los botones y labels están ubicados en la parte inferior de la ventana para una mejor accesibilidad.
+- **Predator-Prey Simulation**: Lions chase deer, and deer feed on plants.
+- **Simulation Control**: You can start, pause, and stop the simulation using control buttons.
+- **Real-Time Counts**: The interface shows the number of lions, deer, and plants in the ecosystem in real time.
+- **Adaptable Design**: Buttons and labels are placed at the bottom of the window for better accessibility.
 
-## Requisitos del Sistema
+## System Requirements
 
-Para ejecutar este proyecto, necesitarás:
+To run this project, you'll need:
 
-- **Python 3.x**: Se recomienda utilizar la versión más reciente de Python.
-- **Bibliotecas de Python**: Las siguientes bibliotecas deben estar instaladas:
-  - Tkinter (normalmente incluido con Python)
-  - Pillow (para manejar imágenes)
+- **Python 3.x**: It's recommended to use the latest version of Python.
+- **Python Libraries**: The following libraries need to be installed:
+  - Tkinter (usually included with Python)
+  - Pillow (for handling images)
 
-## Instalación
+## Installation
 
-1. **Clona el Repositorio**:
+1. **Clone the Repository**:
 
     ```bash
     git clone https://github.com/CQuirozVidal/EcosystemSimulator_tkinter.git
     cd EcosystemSimulator_tkindter
     ```
 
-2. **Instala las Dependencias Necesarias**:
+2. **Install Necessary Dependencies**:
 
-    Asegúrate de tener `pip` instalado y luego ejecuta:
+    Make sure you have `pip` installed, then run:
 
     ```bash
     pip install pillow
     ```
 
-3. **Configura las Rutas de las Imágenes**:
+3. **Configure Image Paths**:
 
-    Las imágenes de los leones, ciervos y plantas deben estar ubicadas en la carpeta `assets/images` dentro del directorio raíz del proyecto. Asegúrate de que las rutas de las imágenes en el código fuente (simulator.py) sean correctas. Las imágenes deben estar en los siguientes archivos:
+    The images of lions, deer, and plants must be located in the `assets/images` folder inside the project root directory. Ensure that the image paths in the source code (`simulator.py`) are correct. The images should be in the following files:
 
-    - León: `lion.png`
-    - Ciervo: `deer.png`
-    - Planta: `plant.png`
+    - Lion: `lion.png`
+    - Deer: `deer.png`
+    - Plant: `plant.png`
 
-    La estructura del directorio debería verse así:
+    The directory structure should look like this:
 
     ```
     .
@@ -62,36 +62,37 @@ Para ejecutar este proyecto, necesitarás:
     └── ...
     ```
 
-## Ejecución
+## Running
 
-Para ejecutar la simulación, navega al directorio del proyecto y ejecuta el archivo `main.py`:
+To run the simulation, navigate to the project directory and run the `main.py` file:
 
 ```bash
 python main.py
 ```
 
-## Estructura del Proyecto
+## Project Structure
 
-- **main.py**: Punto de entrada del proyecto que inicializa y ejecuta la simulación.
-- **src/**: Contiene el código fuente del proyecto.
-  - **simulator.py**: Archivo principal que maneja la interfaz gráfica y la simulación.
-  - **creature.py**: Clase que define las criaturas (leones y ciervos) en la simulación.
-  - **plant.py**: Clase que define las plantas en la simulación.
-- **assets/**: Carpeta que contiene las imágenes utilizadas en la simulación.
-  - **images/**: Carpeta con las imágenes (león, ciervo, planta).
+- **main.py**: Entry point of the project that initializes and runs the simulation.
+- **src/**: Contains the source code of the project.
+  - **simulator.py**: Main file handling the graphical interface and simulation logic.
+  - **creature.py**: Class defining the creatures (lions and deer) in the simulation.
+  - **plant.py**: Class defining the plants in the simulation.
+- **assets/**: Folder containing the images used in the simulation.
+  - **images/**: Folder with the images (lion, deer, plant).
 
-## Uso
+## Usage
 
-- **Iniciar la Simulación**: Haz clic en el botón "Iniciar Simulación" para comenzar.
-- **Pausar la Simulación**: Haz clic en "Pausar Simulación" para detener temporalmente el movimiento.
-- **Detener la Simulación**: Haz clic en "Detener Simulación" para reiniciar todo el ecosistema.
+- **Start the Simulation**: Click the "Start Simulation" button to begin.
+- **Pause the Simulation**: Click "Pause Simulation" to temporarily stop the movement.
+- **Stop the Simulation**: Click "Stop Simulation" to reset the entire ecosystem.
 
-## Contribuciones
+## Contributions
 
-Si deseas contribuir a este proyecto, por favor abre un issue o haz un fork del repositorio y envía un pull request con tus mejoras.
+If you want to contribute to this project, please open an issue or fork the repository and submit a pull request with your improvements.
 
-## Licencia
+## License
 
-Este proyecto se distribuye bajo la licencia MIT. Consulta el archivo `LICENSE` para más detalles.
+This project is distributed under the MIT License. See the `LICENSE` file for more details.
 
 ---
+
